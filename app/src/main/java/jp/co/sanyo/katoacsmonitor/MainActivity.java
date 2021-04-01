@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Bundle bundle = new Bundle();
             bundle.putString ("max_load", "50.0kg");
             bundle.putString ("hand_load", "25.0kg");
-            bundle.putString ("boom_length", "10.0m");
+            bundle.putString ("boom_length", "0.0m");
             bundle.putString ("boom_angle", "30°");
             bundle.putString ("work_radius", "5.0m");
             ACSMonitorFragment.setArguments(bundle);
