@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KatoACSMonitor</string>
+    <string name="safety">安全度</string>
+    <string name="button1">bt_1</string>
+    <string name="button2">bt_2</string>
+    <string name="button3">bt_3</string>
+    <string name="button4">bt_4</string>
+    <string name="max_load">最大荷重</string>
+    <string name="hand_load">吊り荷重</string>
+    <string name="boom_length">ブーム長</string>
+    <string name="boom_angle">ブーム角度</string>
+    <string name="work_radius">作業半径</string>
+</resources>

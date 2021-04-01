@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_max1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@color/limegreen"
+                android:textSize = "40sp"
+                android:gravity="center"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/tv_max2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:background="@color/limegreen"
+                android:textSize = "40sp"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_naka"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/gold"
+                android:textSize = "25sp"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_max3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@color/limegreen"
+                android:textSize = "40sp"
+                android:gravity="center"
+                android:text="" />
+            <TextView
+                android:id="@+id/tv_max4"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/limegreen"
+                android:textSize = "40sp"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
